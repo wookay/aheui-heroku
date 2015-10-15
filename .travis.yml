@@ -1,0 +1,12 @@
+language: go
+go:
+- 1.5
+deploy:
+  provider: heroku
+  buildpack: https://github.com/heroku/heroku-buildpack-go
+  api_key:
+    secure: OORP9Di2WwVvGOTTojbat60e5rBgH8Cy1FKD6bqTIcCdXCTZPyUoMvaGaXcx82eiYT3KOwMprgbh+J3h3Qp3w+Jd+d/WWSoV2meY/fV2obVF9EvthdM4HUisZ551HmS/HcbTu+tO3ffWk6TEwn4XgAch75COrIGwjL6NzUDNGM9QQKQOFpVhnMehC4F8VCEHoHVWfQ3nzkEdjDcey6Yfhhm+4y9CKKdvG/uik68/EW3Z/YJsSZtv5Av10A4GvvdEN+x4sTcUw9d+E/ze0KEeKVtG2W1PLSlgO8Azi211IEE0a8SibUsX1UkxWLk2zkjJm7/ML2HkdWZWn3mVfhqC31rr/taZSnV5eZ4tAyuMjqVLVLqzj2vu114O474HocWhdIIc8FYX9kVEVAa6S92HVFoCPKZRLIJjTm5n00c8PtoDNh/cv3aJmSClyTrGNi6jXJx9SlVic7KqwODdKv87DGXT8uC80UNnkZBjh3B3l95yXF3SXCtEpSSJSNMcBfcx/oQY/Xcuz+nm1m+o3PPrDM4ehA84Wvg4kRe7lftjcqDZ14NpPryEcbh8lwepF/iW+ZtT62baUvoo3r5ax31D+b5/5OjDWKxC8N2hLcVwbjV1RgmFQUyOvRTUUk6pyNK/w5xTrQLWjPFsDRnsX86uexagkrCEXKecoZo011hGCWM=
+  on: master
+  app: aheui
+notifications:
+  email: false

@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/heroku/go-getting-started",
+	"ImportPath": "github.com/wookay/aheui-heroku",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./..."

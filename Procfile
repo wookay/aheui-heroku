@@ -1,1 +1,1 @@
-web: aheui-heorku
+web: aheui-heroku
